@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasan Kerret — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">HK</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-inner container">
+
+      <!-- Left: text -->
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Computer Science @ York University</p>
+        <h1 class="hero-name reveal">
+          <span>Hasan</span>
+          <span class="accent-word">Kerret</span>
+        </h1>
+        <p class="hero-tagline reveal">Developer · Strategist · Builder</p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+
+      <!-- Right: photo -->
+      <div class="hero-avatar-wrap reveal">
+        <div class="hero-avatar-glow"></div>
+        <div class="hero-avatar-ring"></div>
+        <img src="images/profile.jpg" alt="Hasan Kerret" class="hero-avatar" />
+      </div>
+
+    </div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-label section-label reveal">About</div>
+      <div class="about-text">
+        <h2 class="section-heading reveal">Turning ideas into<br /><em>real solutions.</em></h2>
+        <p class="body-text reveal">
+          I'm a 4th-year Computer Science student at York University's Lassonde School of Engineering, blending technical depth with strategic thinking. From developing modular service-booking systems to providing technical project insights for private market platforms, I thrive at the intersection of code and business.
+        </p>
+        <p class="body-text reveal">
+          Available for <strong>4, 8, or 12-month</strong> co-op opportunities. Based in Scarborough, Toronto.
+        </p>
+        <div class="about-stats reveal">
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Consulting Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-label reveal">Skills</p>
+      <h2 class="section-heading reveal">Tools of the trade.</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <div class="skill-icon">&#60;/&#62;</div>
+          <h3>Languages</h3>
+          <p>C · Java · Python · JavaScript · SQL · HTML/CSS</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Technologies</h3>
+          <p>Next.js · MySQL · Oracle DB · Git · Unix · Power Apps · Tableau</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9650;</div>
+          <h3>Practices</h3>
+          <p>API Development · OOP · Data Analysis · Unit Testing · Agile · Web Development</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9670;</div>
+          <h3>Soft Skills</h3>
+          <p>Project Management · Team Collaboration · Communication · Agile Leadership</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="section-label reveal">Experience</p>
+      <h2 class="section-heading reveal">Where I've contributed.</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">March 2026 · Contract</div>
+          <div class="timeline-card">
+            <h3>Strategy Consultant</h3>
+            <p class="timeline-org">Foodies in the Kitchen <span>via Riipen Labs</span></p>
+            <ul class="timeline-bullets">
+              <li>Advised a digital coaching business on messaging & value proposition to improve client acquisition.</li>
+              <li>Developed positioning statements targeting busy professionals aged 25–55.</li>
+              <li>Conducted SWOT analysis to identify gaps in brand clarity and audience targeting.</li>
+              <li>Recommended improvements to website, LinkedIn, and outreach strategy to increase lead generation.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">January 2026 · Contract</div>
+          <div class="timeline-card">
+            <h3>Strategy Consultant</h3>
+            <p class="timeline-org">Roots Funding <span>via Riipen Labs</span></p>
+            <ul class="timeline-bullets">
+              <li>Advised a global private markets platform on growth strategy across Canada, US, UK, EU, and UAE.</li>
+              <li>Evaluated pathways to scale assets under management toward a $1B target.</li>
+              <li>Conducted SWOT analysis on market expansion, customer segments, and competitive positioning.</li>
+              <li>Delivered strategic recommendations to support investor acquisition and platform growth.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <p class="section-label reveal">Projects</p>
+      <h2 class="section-heading reveal">Things I've built.</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1: Stock Tracker (existing) -->
+        <a class="project-card reveal" href="https://github.com/lalogongum/EECS-3311-project" target="_blank" rel="noopener" data-label="Web · JavaScript">
+          <div class="project-img-wrap">
+            <img src="images/consultant.png" alt="Service Booking & Consulting Platform" class="project-img" />
+            <div class="project-overlay">
+              <span class="project-visit">Visit Project ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Service Booking & Consulting Platform</h3>
+            <p>A full-stack system designed to streamline client-consultant connections through automated booking lifecycles and simulated payment workflows. The architecture focuses on clean object-oriented design and the integration of GoF design patterns.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>HTML/CSS</span><span>API</span><span>Java</span><span>Docker</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 2: Placeholder -->
+        <a class="project-card reveal" href="https://editor.p5js.org/lalogongum/full/OH6kwALGw" target="_blank" rel="noopener" data-label="Web · Full Stack">
+          <div class="project-img-wrap">
+            <img src="images/flappybird.png" alt="Project 2" class="project-img" />
+            <div class="project-overlay">
+              <span class="project-visit">Visit Project ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Flappy Bird Clone</h3>
+            <p>A dynamic 2D side-scroller built with the p5.js library, featuring custom physics for gravity and collision detection. I implemented multiple difficulty modes that adjust game velocity and obstacle density, alongside a power-up system and state-based game flow.</p>
+            <div class="project-tags">
+              <span>P5.js</span><span>Creative coding</span><span>Game physics</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 3: Placeholder -->
+        <a class="project-card reveal" href="https://editor.p5js.org/lalogongum/full/onQPxgfu5" target="_blank" rel="noopener" data-label="App · Python">
+          <div class="project-img-wrap">
+            <img src="images/quizgame.png" alt="Project 3" class="project-img" />
+            <div class="project-overlay">
+              <span class="project-visit">Visit Project ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Tick-Tock Trivia</h3>
+            <p>Developed a geography quiz game using p5.js, featuring timed multiple-choice
+              questions, score tracking, and sound effects for correct and incorrect answers. The game includes custom background
+              images, a restart option, and a real-time timer for added challenge.</p>
+            <div class="project-tags">
+              <span>P5.js</span><span>Game logic</span><span>UI desgin</span> <span>Audio Integeration</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 4: Placeholder -->
+        <a class="project-card reveal" href="https://hasan-kerret.itch.io/endless-runner" target="_blank" rel="noopener" data-label="App · Java">
+          <div class="project-img-wrap">
+            <img src="images/unity.png" alt="Project 4" class="project-img" />
+            <div class="project-overlay">
+              <span class="project-visit">Visit Project ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Endless Runner Game</h3>
+            <p>Developed an endless runner game using Unity and C# as part of a project at York University,
+              featuring coin collection, health pickups, and combat modes. Implemented endless level generation
+              with varying obstacles and collectibles, designed intuitive controls, and created responsive gameplay
+              to enhance user experience.</p>
+            <div class="project-tags">
+              <span>Unity</span><span>Game design</span><span>C#</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>Technology Trends</span>
+      <span class="ticker-dot">◆</span>
+      <span>Finance</span>
+      <span class="ticker-dot">◆</span>
+      <span>Fitness</span>
+      <span class="ticker-dot">◆</span>
+      <span>Soccer</span>
+      <span class="ticker-dot">◆</span>
+      <span>Generative Art</span>
+      <span class="ticker-dot">◆</span>
+      <span>Technology Trends</span>
+      <span class="ticker-dot">◆</span>
+      <span>Finance</span>
+      <span class="ticker-dot">◆</span>
+      <span>Fitness</span>
+      <span class="ticker-dot">◆</span>
+      <span>Soccer</span>
+      <span class="ticker-dot">◆</span>
+      <span>Generative Art</span>
+      <span class="ticker-dot">◆</span>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <p class="section-label reveal">Contact</p>
+      <h2 class="section-heading reveal">Let's work together.</h2>
+      <p class="body-text reveal">
+        Open to co-op roles, freelance projects, and conversations about tech &amp; strategy.
+        Reach out — I reply fast.
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:Hasankerret@gmail.com" class="contact-pill">
+          <span class="contact-icon">✉</span> Hasankerret@gmail.com
+        </a>
+        <a href="tel:4377662928" class="contact-pill">
+          <span class="contact-icon">✆</span> 437-766-2928
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Hasan Kerret · Scarborough, Toronto</p>
+    <p class="footer-note">Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
